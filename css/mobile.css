@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 12px;
+    }
+	.navbar {
+		font-size:1.2em;	
+		width:100%;
+	}
+}
+
+@media (max-width: 858px) {
+    html {
+        font-size: 12px;
+    }
+	.navbar {
+		font-size:1em;	
+		width:100%;
+	}
+}
+
+@media (max-width: 780px) {
+    html {
+        font-size: 11px;
+    }
+	.navbar {
+		font-size:1.2em;	
+		width:100%;
+	}
+}
+
+@media (max-width: 702px) {
+    html {
+        font-size: 10px;
+    }
+	.navbar {
+		font-size:1em;
+		width:100%;	
+	}
+}
+
+@media (max-width: 724px) {
+    html {
+        font-size: 9px;
+    }
+	.navbar {
+		font-size:1em;	
+		width:100%;
+	}
+}
+
+@media (max-width: 623px) {
+    html {
+        font-size: 8px;
+    }
+	.navbar {
+		font-size:1em;
+		width:100%;	
+	}
+}

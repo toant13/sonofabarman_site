@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrapper
+{
+	overflow:auto; 
+}
+
+h1
+{
+	font: 28px "copperplate","ostrichround","gillsan";
+	color:#393939;
+	margin-bottom:0px;		
+	margin-top:0px;
+}
+
+.text
+{
+	
+}
+.wrapper img
+{
+	margin-right:15px;	
+}
+p
+{
+	font:16px "Open Sans","LetterGothicStd-Bold","gillsan","capture","Archivo Black","ostrichround","capture";	
+}
+.text p
+{
+	
+	margin-left: 290px;	
+}
+
+
+
+/*********************************************************************Fonts**************************************************************/
+
+@font-face {
+	font-family: copperplate;
+	src: local('fonts/copperplate_becker_bold.ttf'),url('fonts/copperplate_becker_bold.ttf'),url('../fonts/copperplate_becker_bold.ttf');
+}
+
+
+@font-face {
+	font-family: irish;
+	src: local('fonts/IrishUncialfabeta-Bold.ttf'),url('fonts/IrishUncialfabeta-Bold.ttf'),url('../fonts/IrishUncialfabeta-Bold.ttf');
+}
+
+	
+@font-face {
+	font-family: capture;
+	src: local('fonts/Capture_it.ttf'),url('fonts/Capture_it.ttf'),url('../fonts/Capture_it.ttf');
+}
+
+@font-face {
+	font-family: ostrichround;
+	src: local('fonts/ostrich-rounded.ttf'),url('fonts/ostrich-rounded.ttf'),url('../fonts/ostrich-rounded.ttf');
+}
+
+@font-face {
+	font-family: LetterGothicStd-Bold;
+	src: local('fonts/LetterGothicStd-Bold.otf'),url('fonts/LetterGothicStd-Bold.otf'),url('../fonts/LetterGothicStd-Bold.otf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Light"), local("OpenSans-Light"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff") format("woff");
+}
+
+@font-face {
+	font-family: ostrichround;
+	src: local('fonts/ostrich-rounded.ttf'),url('fonts/ostrich-rounded.ttf'),url('../fonts/ostrich-rounded.ttf');
+}
+
+@font-face {
+	font-family: gillsan;
+	src: local('fonts/ufonts.com_gillsans-light-webfont.ttf'),url('fonts/ufonts.com_gillsans-light-webfont.ttf'),url('../fonts/ufonts.com_gillsans-light-webfont.ttf'),url('fonts/ufonts.com_gillsans-light-webfont.eot?#iefix') format('embedded-opentype');
+	src: url('fonts/ufonts.com_gillsans-light-webfont.eot'),
+
+}

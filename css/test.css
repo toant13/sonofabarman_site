@@ -1,0 +1,1002 @@
+
+@charset "UTF-8";
+html {
+	height: 100%;
+	min-height:100%;
+
+    margin: 0;
+    padding: 0;
+}
+a:focus {
+	outline:0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+#menuwrapper {
+    height: auto;
+
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+	max-width:85%;
+	margin:0 auto;
+}
+
+.menuitem {
+    width: auto;
+    height: 40px;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+    background: #000;
+    color:white;
+}
+
+.stretcher {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+
+.navbar {
+    color: black;
+    font:1.8em "Helvetica Neue", "ostrichround","gillsan","Open Sans",Verdana, Geneva, sans-serif;
+	font-weight:100;
+    letter-spacing: 2px;
+    list-style: none outside none;
+    margin: 0 auto;
+    padding-top: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+	opacity:.85;
+	
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+	max-width:85%;
+}
+.navbar ul {
+	max-width:85%;
+    margin: 0 auto;;
+    padding: 0;
+}
+.navbar li {
+    display: inline-block;
+    margin-right:3.7%;
+}
+.navbar a:hover {
+    color: #A9987A;
+}
+a {
+    color: #D0D1CB;
+}
+.current_page_item a {
+    color: #A9987A;
+}
+
+.headerbar {
+    background-color: black;
+    display: block;
+    height: 96px;
+    opacity: .85;
+    position: fixed;
+    top: 0;
+    transition: all 0.2s ease 0s;
+    width: 100%;
+    z-index: 999;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 14px;
+  	line-height: 1.428571429;
+    background-color: #0D2410;
+	height: 100%;
+	min-height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.button {
+    -moz-box-sizing: border-box;
+	background-color:#1c4a25;	   
+    border: medium none;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: none;
+    color: #FFFFFF;
+    display: block;
+    font: 16px "Open Sans","LetterGothicStd-Bold","gillsan","Archivo Black","ostrichround";
+    margin-top: 30px;
+    padding: 12px 18px 13px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    transition: all 0.25s ease 0s;
+    vertical-align: middle;
+}
+
+.button:hover{
+	background-color: #358C46;
+}
+
+.buttonspan {
+    margin: 0 auto;
+    width: 62%;
+}
+.orange {
+    color: #ed1c24;
+}
+
+.blogtitle {
+	color:#A78D5C;
+	
+	font-family: "Helvetica Neue";
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-weight: 500;
+}	
+
+a.nav-button:hover {
+    color: #B59872;
+}
+.slide {
+    height: 50rem;
+    margin: 0;
+    padding: 10rem 0 20rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.nav-button {
+    padding: 1.2rem;
+}
+.inner {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.70);
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 76%;
+	
+}
+#home {
+    background:url(../img/bg/AL3K0223.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    display: block;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+	
+	
+}
+
+
+#home .inner .cochintest{
+	font:50px/35px "Cochin",serif;	
+	letter-spacing:4px;
+}
+
+
+#home a.bttn{
+	border: 0px solid white;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 8px 15px;
+	font-family: "Cochin","Helvetica Neue","Open Sans","gillsan","Archivo Black","ostrichround",serif;
+	font-weight: lighter;
+	font-size: 18px;
+	color: #c2c2c2;
+	text-align: center;
+	background: rgba(0,0,0,0);
+	transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-moz-box-shadow:   inset 0 0 3px rgba(0, 0, 0, 0.35);
+ 	-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.35);
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.35);
+	background-color:rgba(0,0,0,.4);
+
+}
+
+.white{
+	color:white;	
+}
+#home .inner .modal p{
+	color:white;
+	padding:0;
+	margin-top:1.5em;	
+	text-align:justify;
+	opacity:1;
+	font: 16px/30px "Helvetica Neue","Open Sans","LetterGothicStd-Bold","gillsan","Archivo Black","ostrichround";
+	font-weight:200;
+}
+
+
+
+#home .modal-dialog{
+	width:75%;		
+}
+
+#home .modal-title{
+	letter-spacing:5px;
+	color:whitesmoke;
+	font:26px "Cochin","Helvetica Neue","Open Sans","gillsan","Archivo Black","ostrichround",Georgia, "Times New Roman", Times, serif;
+}
+
+#home .modal-content{
+	background-color: rgba(0, 0, 0, 0.80);
+}
+
+#home .modal-header{
+	opacity:.85;
+}	
+
+#home .modal-footer{
+	border-top: 1px solid #363636;	
+}
+
+#home a.bttn:hover{
+	color:white;
+	background-color:rgba(0,0,0,.65);
+}
+
+#home h2{
+	color: #e1e1e1;
+	display: block;
+	font:150px "Cochin","Helvetica Neue","Open Sans","gillsan","Archivo Black","ostrichround",Georgia, "Times New Roman", Times, serif;
+	font:16vh "Cochin","Helvetica Neue","Open Sans","gillsan","Archivo Black","ostrichround",Georgia, "Times New Roman", Times, serif;
+	margin-bottom: 0;
+	text-align: center;
+	width: auto;
+	line-height:120px;
+	line-height: 15vh;
+	font-weight: 400;
+	letter-spacing: -5px;
+	text-shadow: 2px 4px 6px rgba(0,0,0,0.9);
+}
+
+#home .copyright{
+	position:absolute;
+}
+
+#home .inner {
+	margin-top:96px;
+	background:none;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 30px;
+    left: 0;
+}
+#home img.pos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+}
+#home img.credits {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   	bottom:-15px;
+	position:absolute;
+	right:0;
+	left:0;
+}
+#video {
+	background:url(../img/bg/AL3K0577.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    text-align: center;
+	
+	display: block;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+}
+#video address {
+    text-align: left;
+}
+#video .inner {
+    
+    margin-bottom: 0;
+	
+	margin-top:96px;
+	
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 155px;
+    left: 0;
+}
+
+#video .footer,
+#video .copyright{
+	position:absolute;
+}
+
+#synopsis {
+    background:url(../img/bg/AL3K0588.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	display: block;
+    margin: 0;
+    min-height: 100%;
+    padding:0;
+   
+}
+#synopsis .inner {
+    
+    margin-bottom: 0;
+	
+	position: absolute;
+	margin-top:96px;
+    top: 0;
+    right: 0;
+    bottom: 155px;
+    left: 0;
+}
+
+#synopsis .footer,
+#synopsis .copyright{
+	position:absolute;
+}
+
+
+
+
+#team {
+	background:url(../img/bg/AL3K0677.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    padding-bottom: 100px;
+    text-align: center;
+	
+	display: block;
+    margin: 0;
+	min-height:100%;
+    padding:0;
+}
+#team .inner {
+    
+	
+    margin-bottom: 0;
+    min-height: 100%;
+    margin-top:96px;
+	padding-bottom:50px;
+}
+#team address {
+    text-align: left;
+}
+
+#team .inner .profile h2 {
+    color: #898989;
+    font: 25px "Helvetica Neue","copperplate","ostrichround","gillsan";
+    letter-spacing: 0.5px;
+	font-weight:500;	
+	text-transform: uppercase;
+	margin:0;
+	padding:0;
+}
+
+#team .inner .profile .left h2{ 
+	text-align: left;	
+}
+
+#team .inner .profile .right h2{ 
+	text-align: right;	
+}
+
+#team .inner .profile{
+	width:80%;
+	margin: 0 auto;	
+	padding: 15px 0;
+	overflow:auto;
+	border-bottom:1px solid white;	
+}
+
+#team .inner .profile img{
+	border-radius: 5px 5px 5px 5px;
+}
+
+#team .inner .profile .left img{
+	float:left;	
+	margin: 5px 20px 0px 0px;
+}
+
+#team .inner .profile .right img{
+	float:right;	
+	margin: 5px 0px 0px 20px;
+}
+
+#team .inner .profile h3 {
+	color: #c7b299	;
+   
+    font: 19px "Helvetica Neue","copperplate","ostrichround","gillsan";
+    letter-spacing: 0.5px;
+	font-weight:400;
+	margin:0;
+	padding:0;
+	text-transform: uppercase;
+}
+
+#team .inner .profile .left h3{
+	text-align: left;	
+}
+
+#team .inner .profile .right h3{
+	text-align: right;	
+}
+
+#team .inner .profile p{
+	padding:0;
+	text-align:justify;
+}
+
+
+
+#cast {
+	background:url(../img/bg/AL3K0075%201-Edit.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	display: block;
+    margin: 0;
+    min-height: 100%;
+    padding:0;
+}
+#cast .inner {
+    
+	
+	margin-top:96px;
+	
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 155px;
+    left: 0;
+}
+
+#cast .footer,
+#cast .copyright{
+	position:absolute;
+}
+
+#cast address {
+    text-align: left;
+}
+#cast .inner .col {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    width: 40%;
+}
+#cast .inner h2 {
+    color: #898989;
+    font: 28px "copperplate","ostrichround","gillsan";
+    margin: 15px 0 5px;
+    padding: 0 20px;
+    text-align: left;
+}
+#cast .inner p {
+    text-align: center;
+}
+#blog {
+	background:url(../img/bg/AL3K0755.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    height: auto;
+    text-align: center;
+}
+
+#blog .inner p a {
+    color: #999999;
+}
+
+#blog .inner .wpgallery {
+	border:1px solid white;
+	margin:.75em;	
+	border-radius:4px;
+}
+
+.gallery-caption{
+	font:14px/20px "Helvetic Neue",Verdana, Geneva, sans-serif;	
+	color:white;
+	
+}
+
+
+#contribute {
+	background:url(../img/bg/AL3K0653-Edit.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    display: block;
+    min-height: 100%;
+}
+#contribute .inner {
+    margin-top:96px;
+    margin-bottom: 0;
+    min-height: 100%;
+}
+#contribute .inner h2 {
+    color: #D7D7D7;
+    font: 26px "Helvetica Neue","Cochin","copperplate","ostrichround","gillsan";
+    letter-spacing: 1px;
+	font-weight:500;
+	text-transform:uppercase;
+    margin: 30px 0 5px 10px;
+    padding: 0 6.5%;
+    text-align: left;
+}
+#contribute .inner p.question {
+    color: #CCCCCC;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#contribute .inner p.indented {
+    margin-left: 60px;
+    margin-top: 5px;
+    padding: 0;
+}
+#contribute .inner p.indentednumerals {
+    margin-left: 7%;
+    margin-top: 0;
+}
+.inner address {
+    color: black;
+    font: 16px "Open Sans","LetterGothicStd-Bold","gillsan","Archivo Black","ostrichround";
+    margin-left: 20px;
+    text-align: left;
+}
+#contribute .inner #tophalf {
+   	overflow:auto;
+    margin: 30px 60px 0;
+}
+#contribute .inner #tophalf .left {
+    float: left;
+    width: 49%;
+	border-right: 1px solid #898989;
+	text-align:center;
+}
+
+#contribute .inner #tophalf .left p {
+	padding:0; 
+	text-align:center;
+}
+
+#contribute .inner #tophalf .left img {
+    margin: 0 auto;
+	border: white 10px solid;
+	width:85%;
+}
+#contribute .inner #tophalf .right {
+    
+    display: inline-block;
+    float: right;
+    max-width: 49%;
+    text-align: center;
+}
+#contribute .inner #tophalf .right p {
+    line-height: 25px;
+    margin-bottom: 5px;
+	margin-top:0;
+	padding:2%;
+	text-align:justify;
+}
+#afi {
+	background:url(../img/bg/AL3K0295%201.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    min-height: 50em;
+    text-align: center;
+}
+#afi .inner {
+   	margin-top:96px; 
+    padding-bottom: 100px;
+}
+#afi .inner p {
+    color: white;
+    margin-top: 20px;
+	text-align:justify;
+	line-height:27px;
+}
+
+#afi .inner img{
+	float:right; 
+	margin:20px 6.5% 0px 20px;
+	border-radius: 6px 6px 6px 6px;	
+	
+}
+
+#afi address {
+    text-align: left;
+}
+.inner p {
+    color: white;
+    font: 18px/35px "Helvetica Neue", "Open Sans","LetterGothicStd-Bold","gillsan","Archivo Black","ostrichround";
+    letter-spacing: normal;
+    margin: 10px auto 0;
+    padding: 0 6.5%;
+    text-align: left;
+	font-weight:200;
+}
+.inner hr {
+    border-color: #898989;
+}
+.inner hr {
+    margin-top: 30px;
+    width: 87%;
+}
+.inner hr.doublestyle {
+    border-image: none;
+    border-right: medium none;
+    border-style: double none none;
+    border-width: medium;
+    margin-top: 30px;
+    padding: 0;
+    text-align: center;
+    width: 87%;
+}
+.inner h1 {
+    color: #A78D5C;
+    font: 45px "Cochin","Montserrat","irish","ostrichround","gillsan";
+	letter-spacing: 4px;
+	font-weight: 900;
+	
+}
+.inner h1:before {
+    content: "-";
+    padding-right: 30px;
+}
+.inner h1:after {
+    content: "-";
+    padding-left: 30px;
+}
+#video .inner p {
+    text-align: center;
+}
+#team .inner p {
+    color: white;
+    display: block;
+    font: 17px/30px "Helvetica Neue", "Open Sans","LetterGothicStd-Bold","gillsan","Archivo Black","ostrichround";
+	font-weight:400;
+    margin-top: 10px;
+    padding: 0 20px;
+    text-align: left;
+    width: auto;
+}
+#blog .inner {
+    
+    margin-bottom: 0;
+    min-height: 100%;
+    margin-top:96px;
+	padding-bottom:100px;
+}
+#blog .inner .colright {
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+    margin-top: 30px;
+    width: 25%;
+}
+#blog .inner .colleft {
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%;
+    overflow: hidden;
+    width: 60%;
+}
+#blog .inner .endtitle {
+    border-bottom: 1px solid #4A4A4A;
+    margin: 15px 0 15px 20px;
+    width: 90%;
+}
+#blog .inner .colleft h2 {
+    color: #C7B299;
+    font: 35px "Helvectica Neue","ostrichround","gillsan";
+    letter-spacing: 0.5px;
+    margin: 15px 0 5px;
+    padding-left: 20px;
+    text-align: left;
+}
+#blog .inner .colleft h3 {
+    color: #D7D7D7;
+    font: 22px "ostrichround","gillsan";
+    letter-spacing: 0.5px;
+    margin: 5px 0;
+    padding-left: 20px;
+    text-align: left;
+}
+#blog .inner .colleft hr {
+    width: 80%;
+}
+#blog .inner p {
+    color: white;
+    padding: 0 40px 0 20px;
+}
+
+#bottlediv {
+    display: inline-block;
+    float: left;
+}
+#bottlediv img {
+    position: absolute;
+    transition-duration: 2s;
+    transition-property: opacity;
+    transition-timing-function: linear;
+}
+#bottlediv #emptybottle, #bottlediv:hover #fullbottle {
+    opacity: 1;
+}
+#bottlediv:hover #emptybottle, #bottlediv #fullbottle {
+    opacity: 0;
+}
+.footer {
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 5px 8px -5px rgba(0, 0, 0, 0.65) inset;
+    display: block;
+    height: 110px;
+    padding-top: 15px;
+	
+	bottom: 30px;
+	width:100%;
+}
+.footer .wrapper {
+    height: 90%;
+    margin: 0 auto;
+    width: 1050px;
+}
+.footer .wrapper .fourcol-one {
+    float: left;
+    height: 80%;
+    margin-right: 0;
+    position: relative;
+    width: 25%;
+}
+.footer .wrapper .fourcol-one-last {
+    float: left;
+    height: 80%;
+    position: relative;
+    text-align: center;
+    width: 22%;
+}
+.footer .wrapper h1 {
+    color: white;
+    display: block;
+    font: 16px "Open Sans","LetterGothicStd-Bold","gillsan","Archivo Black","ostrichround";
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+    width: auto;
+}
+.footer .wrapper p {
+    color: white;
+    display: block;
+    font: 12px "Open Sans","LetterGothicStd-Bold","gillsan","Archivo Black","ostrichround";
+    margin-bottom: 0;
+    text-align: left;
+    width: auto;
+}
+.footer .wrapper address {
+    color: white;
+    font: 12px "Open Sans","LetterGothicStd-Bold","gillsan","Archivo Black","ostrichround";
+    margin-top: 5px;
+}
+.copyright {
+    background: none repeat scroll 0 0 black;
+    bottom: 0;
+    color: white;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+}
+.copyright span {
+    color: #636363;
+    display: inline-block;
+    font: 10px/30px "Open Sans","LetterGothicStd-Bold","gillsan","Archivo Black","ostrichround";
+    margin-bottom: 0;
+    vertical-align: middle;
+    width: auto;
+}
+ul#social {
+    list-style: none outside none;
+    margin-right: 3px;
+    margin-top: 5px;
+    width: 94px;
+}
+ul#social li {
+    float: left;
+    height: 37px;
+    margin-left: 5px;
+    text-indent: -3000px;
+    width: 37px;
+}
+ul#social li.fb a {
+    background: url("../img/social2.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 37px;
+    width: 37px;
+    z-index: 999;
+}
+ul#social li.fb a:hover {
+    background-position: 0 -37px;
+    z-index: 999;
+}
+ul#social li.fb a:active {
+    outline: medium none;
+    z-index: 999;
+}
+ul#social li.twitter a {
+    background: url("../img/social2.png") repeat scroll 37px 0 transparent;
+    display: block;
+    height: 37px;
+    width: 37px;
+}
+ul#social li.twitter a:hover {
+    background-position: 37px -37px;
+}
+ul#social li.twitter a:active {
+    outline: medium none;
+}
+
+
+
+
+ul#socialhome {
+   	list-style: none outside none;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 94px;
+	margin-left: auto;
+	bottom: 43px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	
+}
+ul#socialhome li {
+    float: left;
+    height: 37px;
+    margin-left: 5px;
+    text-indent: -3000px;
+    width: 37px;
+}
+ul#socialhome li.fb a {
+    background: url("../img/social.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 37px;
+    width: 37px;
+    z-index: 999;
+}
+ul#socialhome li.fb a:hover {
+    background-position: 0 -37px;
+    z-index: 999;
+}
+ul#socialhome li.fb a:active {
+    outline: medium none;
+    z-index: 999;
+}
+ul#socialhome li.twitter a {
+    background: url("../img/social.png") repeat scroll 37px 0 transparent;
+    display: block;
+    height: 37px;
+    width: 37px;
+}
+ul#socialhome li.twitter a:hover {
+    background-position: 37px -37px;
+}
+ul#socialhome li.twitter a:active {
+    outline: medium none;
+}
+
+/************************back to top button************/
+a.white:hover,
+a.white:link,
+a.white:visited{
+	color:white;	
+}
+
+.go-top {
+	position: fixed;
+	bottom: 3em;
+	right: 3em;
+	text-decoration: none;
+	color: white;
+	opacity:.75;
+	font-size: 12px;
+	padding: 0px;
+	display: none;
+	
+	/*
+	border-radius:999px;
+	behavior: url(PIE.htc);
+	height:45px;
+	width:45px;
+	text-align:center;*/
+	text-indent: -9999px;
+	height:38px;
+	width:38px;
+	background:url(../img/top-button.png);
+}
+
+.go-top:hover {
+	opacity:1;
+}
+
+@font-face {
+    font-family: "copperplate";
+    src: local("fonts/copperplate_becker_bold.ttf"), url("fonts/copperplate_becker_bold.ttf"), url("../fonts/copperplate_becker_bold.ttf");
+}
+@font-face {
+    font-family: "irish";
+    src: local("fonts/IrishUncialfabeta-Bold.ttf"), url("fonts/IrishUncialfabeta-Bold.ttf"), url("../fonts/IrishUncialfabeta-Bold.ttf");
+}
+
+@font-face {
+    font-family: "ostrichround";
+    src: local("fonts/ostrich-rounded.ttf"), url("fonts/ostrich-rounded.ttf"), url("../fonts/ostrich-rounded.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: local("fonts/Montserrat-Regular.ttf"), url("fonts/Montserrat-Regular.ttf"), url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "LetterGothicStd-Bold";
+    src: local("fonts/LetterGothicStd-Bold.otf"), url("fonts/LetterGothicStd-Bold.otf"), url("../fonts/LetterGothicStd-Bold.otf");
+}
+
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Light"), local("OpenSans-Light"), url("http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff") format("woff");
+}
+@font-face {
+    font-family: "ostrichround";
+    src: local("fonts/ostrich-rounded.ttf"), url("fonts/ostrich-rounded.ttf"), url("../fonts/ostrich-rounded.ttf");
+}
+@font-face {
+    font-family: "gillsan";
+    src: local("fonts/ufonts.com_gillsans-light-webfont.ttf"), url("fonts/ufonts.com_gillsans-light-webfont.ttf"), url("../fonts/ufonts.com_gillsans-light-webfont.ttf"), url("fonts/ufonts.com_gillsans-light-webfont.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+    font-family: "Cochin";
+    src: local("fonts/cochin.ttf"), url("fonts/cochin.ttf"), url("../fonts/cochin.ttf");
+}
