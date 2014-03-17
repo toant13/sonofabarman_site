@@ -81,12 +81,11 @@
                               Los Angeles, CA 90027
                     </address>
             	</div>
-                 <div class="fourcol-one" style="border-left:1px solid white;">	
+                <div class="fourcol-one" style="border-left:1px solid white;">	
                 	<div class="buttonspan" style="width:70%; margin:10% auto 0 auto;">
-                    <a class="button" href="https://support.afi.com/thesis1314" target="_blank" style="margin-top:0;">CONTRIBUTE</a>
-                  
+                		<a class="button" href="http://sonofabarman.com/updates" target="_blank" style="margin-top:0;">Latest News</a>                
                 	</div>	
-            	</div>
+                </div>
                 <div class="fourcol-one-last" style="border-left:1px solid white;">
                 	<h1 style="width: 70%; margin: 0 auto;">FOLLOW US!</h1>
                     <ul id="social">
