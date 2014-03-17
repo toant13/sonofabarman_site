@@ -61,12 +61,19 @@
                     
                 </div>
                 <div class="right">
-                	<p> Any contribution big or small can go a long ways to help with our project.  Click on the button below and select <span class="orange">Son of a Barman</span> from the dropdown menu as seen in the picture. </p>
-                    <a href="https://support.afi.com/thesis1314" target="_blank"><img src="img/donatepic.png" style=" box-shadow: 0 -5px 8px -5px rgba(0, 0, 0, 0.65) inset; width:93.6%;"/></a>
-                    <div class="buttonspan">
-            			<a class="button" href="https://support.afi.com/thesis1314" target="_blank">CONTRIBUTE ONLINE!</a>
-            		</div>
-                   
+                	<p> The grateful donations to Son Of A Barman have allowed us to reach our maximum goal of $65,000 raised. Thank you to everyone who took a moment to recognize this film project. We could not have gotten this far without your support. Join the conversation as we enter the final stages of post production. Stayed tuned for the latest news updates!</p>
+                    
+                  <div style="margin:30px 0 0 140px;">
+                  
+                    <ul id="social">
+                        <li class="fb">
+                            <a target="_blank" href="https://www.facebook.com/sonofabarman">Facebook</a>	
+                        </li>    
+                        <li class="twitter">
+                            <a target="_blank" href="https://twitter.com/sonofabarman">Twitter</a>	
+                        </li>       
+                	  </ul> 
+                  </div> 
                 </div>
             </div>
             <hr class="doublestyle" />
@@ -204,13 +211,13 @@ If you have any questions or comments, please feel free to contact us. We thank 
                 <div class="fourcol-one-last" style="border-left:1px solid white;">
                 	<h1 style="width: 70%; margin: 0 auto;">FOLLOW US!</h1>
                     <ul id="social">
-                    <li class="fb">
-                        <a target="_blank" href="https://www.facebook.com/sonofabarman">Facebook</a>	
-                    </li>    
-                    <li class="twitter">
-                        <a target="_blank" href="https://twitter.com/sonofabarman">Twitter</a>	
-                    </li>       
-                </ul> 
+                        <li class="fb">
+                            <a target="_blank" href="https://www.facebook.com/sonofabarman">Facebook</a>	
+                        </li>    
+                        <li class="twitter">
+                            <a target="_blank" href="https://twitter.com/sonofabarman">Twitter</a>	
+                        </li>       
+                	  </ul> 
             	</div>	
         	</div>
         </div><!--footer-->
